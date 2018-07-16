@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeSharedElement",
+  "name": "FluidProject",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,17 +7,25 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.4.1",
-    "react-native": "0.56.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-fit-image": "^1.5.4",
     "react-navigation": "^2.6.2",
-    "react-navigation-fluid-transitions": "^0.2.2",
-    "styled-components": "^3.3.3"
+    "react-navigation-fluid-transitions": "^0.2.2"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",
-    "babel-preset-react-native": "^5",
+    "babel-preset-react-native": "4.0.0",
     "jest": "23.4.1",
-    "react-test-renderer": "16.4.1"
+    "react-test-renderer": "16.3.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-native": "^3.2.1"
   },
   "jest": {
     "preset": "react-native"
