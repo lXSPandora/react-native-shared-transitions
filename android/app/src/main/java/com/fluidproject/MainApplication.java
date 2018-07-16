@@ -1,4 +1,4 @@
-package com.reactnativesharedelement;
+package com.fluidproject;
 
 import android.app.Application;
 
